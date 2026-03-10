@@ -4,9 +4,7 @@ from schemas import ContentRequest, TaskResponse
 from workflow import build_graph, LLMQuotaExceeded
 import asyncio
 
-
-router = APIRouter()
-content_router = APIRouter(prefix="/api/v1", tags=["Content"])
+router = APIRouter(prefix="/api/v1", tags=["Content"])
 graph = build_graph()  # compiled once
 
 @router.post("/generate-content", response_model=TaskResponse, response_model_exclude_unset=True)
