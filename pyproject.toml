@@ -1,0 +1,17 @@
+[project]
+name = "contentgenerator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "dotenv>=0.9.9",
+    "fastapi>=0.133.0",
+    "httpx>=0.28.1",
+    "langchain-core>=1.2.15",
+    "langchain-google-genai>=4.2.1",
+    "langchain-groq>=1.1.2",
+    "langgraph>=1.0.9",
+    "uvicorn>=0.41.0",
+]

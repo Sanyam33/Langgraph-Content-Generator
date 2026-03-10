@@ -1,0 +1,8 @@
+fastapi
+dotenv
+uvicorn
+httpx
+beautifulsoup4
+langchain-core
+langchain-google-genai
+langgraph
